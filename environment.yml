@@ -1,0 +1,23 @@
+name: sdas
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.10
+  - ipykernel
+  - pip
+  - pip:
+    - torch
+    - transformers==4.55.2
+    - accelerate
+    - safetensors
+    - sentencepiece
+    - protobuf
+    - openai
+    - langchain-core
+    - langchain-community
+    - pydantic
+    - python-dotenv
+    - numpy
+    - scipy
+    - jupyter

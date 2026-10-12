@@ -1,0 +1,23 @@
+name: sdas-gemma
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.10
+  - ipykernel
+  - pip
+  - pip:
+    - torch
+    - transformers==5.16.1
+    - accelerate
+    - safetensors
+    - sentencepiece
+    - protobuf
+    - openai
+    - langchain-core
+    - langchain-community
+    - pydantic
+    - python-dotenv
+    - numpy
+    - scipy
+    - jupyter
